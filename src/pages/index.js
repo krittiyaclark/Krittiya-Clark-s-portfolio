@@ -18,27 +18,30 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2>
+            <h2>Your Next Software Engineer</h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            I am a Software Engineer based in Colchester, Vermont. I have
+            extensive knowledge in HTML, CSS, SASS, Javascript, Node.Js,
+            MongoDB, React, and Jamstack. I am passionate about using code to
+            solve problems. Through freelancing, I help empower businesses in my
+            community who lack an online presence and technological expertise.
+            <br />
+            <br />
+            As a software engineer, I aspire to help bring creative projects to
+            life and build software applications to solve problems for your
+            business.
+            <br />
+            <br />
+            Bilanguages in English and Thai.
           </p>
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="#" className="button">
                 Learn More
               </a>
             </li>
-          </ul>
+          </ul> */}
         </section>
 
         <section id="two">

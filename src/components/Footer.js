@@ -1,35 +1,49 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Footer = () => (
   <div id="footer">
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter">
+          <Link
+            to="https://twitter.com/krittiyaClark"
+            className="icon fa-twitter"
+          >
             <span className="label">Twitter</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className="icon fa-github">
+          <Link
+            to="https://github.com/krittiyaclark"
+            className="icon fa-github"
+          >
             <span className="label">Github</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
-          </a>
+          <Link
+            to="https://www.linkedin.com/in/krittiya-clark-front-end"
+            className="icon fa-linkedin"
+          >
+            <span className="label">Linkedin</span>
+          </Link>
         </li>
         <li>
-          <a href="#" className="icon fa-envelope-o">
+          <a
+            href="mailto:contact@vtwebdevelopment.com"
+            target="_blank"
+            className="icon fa-envelope-o"
+          >
             <span className="label">Email</span>
           </a>
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          &copy; Krittiya Clark {new Date().getFullYear()} All rights reserved.
         </li>
+        <li>Built with Gatsby</li>
       </ul>
     </div>
   </div>
