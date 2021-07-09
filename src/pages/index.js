@@ -48,14 +48,14 @@ const HomeIndex = () => {
           <h2>Recent Work</h2>
 
           <Gallery />
-
+          {/* 
           <ul className="actions">
             <li>
               <a href="#" className="button">
                 Full Portfolio
               </a>
             </li>
-          </ul>
+          </ul> */}
         </section>
 
         <section id="three">

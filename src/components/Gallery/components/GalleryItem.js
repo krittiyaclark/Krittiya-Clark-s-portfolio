@@ -8,6 +8,7 @@ const GalleryItem = ({
   thumbnail,
   caption,
   description,
+  technology,
   url,
   position,
   toggleLightbox,
@@ -19,7 +20,7 @@ const GalleryItem = ({
     },
     [position, toggleLightbox]
   )
-
+  console.log(technology)
   return (
     <article key={id} className="6u 12u$(xsmall) work-item">
       <a className="image fit thumb" href={source} onClick={onClick}>
@@ -27,7 +28,12 @@ const GalleryItem = ({
       </a>
 
       <h3>{caption}</h3>
-      <p>{description}</p>
+      <p className="technology">
+        <span>
+          <strong>{technology}</strong>
+        </span>{' '}
+        {description}
+      </p>
       <Link to={url} alt={caption} target="_blank">
         View Project
       </Link>

@@ -2922,3 +2922,11 @@ article.special {
     width: 100%;
   }
 }
+/* GalleryItem */
+.technology strong {
+  color: black;
+}
+
+.work-item p {
+  padding-bottom: 0.5rem;
+}
