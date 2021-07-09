@@ -31,7 +31,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="mailto:contact@vtwebdevelopment.com"
+            href="mailto:krittiyaclark@gmail.com"
             target="_blank"
             className="icon fa-envelope-o"
           >
