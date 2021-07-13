@@ -11,8 +11,7 @@ const Header = () => (
       </a>
       <h1>
         <strong>Hi, I am Krittiya Clark.</strong> <br />
-        I'm a Software Engineer working with Javascript, React, Gatsby, and
-        Node.
+        I'm a Software Engineer working with Javascript, React, and Gatsby.
       </h1>
     </div>
     <Footer />
