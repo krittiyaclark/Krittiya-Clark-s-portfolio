@@ -67,7 +67,7 @@ const HomeIndex = () => {
                 method="post"
                 netlify-honeypot="bot-field"
                 data-netlify="true"
-                action="/Success"
+                action="../components/Success.js"
               >
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
