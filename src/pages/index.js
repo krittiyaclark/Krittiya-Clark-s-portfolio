@@ -65,9 +65,10 @@ const HomeIndex = () => {
             <div className="8u 12u$(small)">
               <form
                 method="post"
+                name="contact"
                 netlify-honeypot="bot-field"
                 data-netlify="true"
-                action="../components/Success.js"
+                action="/success"
               >
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
@@ -97,7 +98,9 @@ const HomeIndex = () => {
                 </div>
                 <ul className="actions" style={{ marginTop: 30 }}>
                   <li>
-                    <input type="submit" value="Send Message" />
+                    <button type="submit" className="submit-button">
+                      Send Message
+                    </button>
                   </li>
                 </ul>
               </form>
