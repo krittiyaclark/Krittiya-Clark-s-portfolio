@@ -59,8 +59,8 @@ const HomeIndex = () => {
         </section>
 
         <section id="three">
-          <h2>Get In Touch</h2>
-          <p>I would love to hear from you.</p>
+          <h2>Let's work together!</h2>
+          <p>Hire me</p>
           <div className="row">
             <div className="8u 12u$(small)">
               <form
