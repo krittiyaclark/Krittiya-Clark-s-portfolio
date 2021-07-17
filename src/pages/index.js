@@ -22,10 +22,10 @@ const HomeIndex = () => {
           </header>
           <p>
             I am a Software Engineer based in Colchester, Vermont. I have
-            extensive knowledge in HTML, CSS, SASS, Javascript, Node.Js,
-            MongoDB, React, and Jamstack. I am passionate about using code to
-            solve problems. Through freelancing, I help empower businesses in my
-            community who lack an online presence and technological expertise.
+            extensive knowledge in HTML, CSS, SASS, Javascript, Node.Js, React,
+            and Jamstack. I am passionate about using code to solve problems.
+            Through freelancing, I help empower businesses in my community who
+            lack an online presence and technological expertise.
             <br />
             <br />
             As a software engineer, I aspire to help bring creative projects to
