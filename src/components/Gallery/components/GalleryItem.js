@@ -20,7 +20,7 @@ const GalleryItem = ({
     },
     [position, toggleLightbox]
   )
-  console.log(technology)
+
   return (
     <article key={id} className="6u 12u$(xsmall) work-item">
       <a className="image fit thumb" href={source} onClick={onClick}>

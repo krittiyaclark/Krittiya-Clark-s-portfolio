@@ -1462,22 +1462,6 @@ body.is-touch {
     }
   }
 
-  /* Success Page */
-  section.success-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .page-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   /* Footer */
 
   #footer {
@@ -1591,6 +1575,22 @@ body.is-touch {
   .\34 u24 {
     width: 100%;
   }
+}
+
+/* Success Page */
+.success-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* GalleryItem */
