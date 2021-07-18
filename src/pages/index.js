@@ -64,28 +64,30 @@ const HomeIndex = () => {
           <div className="row">
             <div className="8u 12u$(small)">
               <form
-                method="post"
+                className="contact-form"
                 name="contact"
+                method="post"
                 netlify-honeypot="bot-field"
                 data-netlify="true"
                 action="/success"
               >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
-                    <input type="hidden" name="bot-field" />
                     <input
                       type="text"
                       name="name"
-                      id="name"
-                      placeholder="Name"
+                      placeholder="Your name"
+                      className="form-control"
                     />
                   </div>
                   <div className="6u 12u$(xsmall)">
                     <input
                       type="email"
                       name="email"
-                      id="email"
-                      placeholder="Email"
+                      placeholder="Your email"
+                      className="form-control"
                     />
                   </div>
                   <div className="12u">
@@ -98,7 +100,7 @@ const HomeIndex = () => {
                   </div>
                 </div>
                 <button type="submit" className="submit-button">
-                  Send Message
+                  subscribe
                 </button>
               </form>
             </div>
