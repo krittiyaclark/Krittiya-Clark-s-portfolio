@@ -5,7 +5,8 @@ const Success = () => {
   return (
     <section className="success-page">
       <div className="page-center">
-        <h2>Your submission was recieved ! </h2>
+        <h2>Your submission was recieved !</h2>
+        <p>I'll contact you shortly.</p>
         <Link to="/" className="btn">
           back home
         </Link>

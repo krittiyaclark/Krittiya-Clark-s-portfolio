@@ -2223,8 +2223,10 @@ table.alt tfoot {
   padding: 0px 0.75em;
   color: #787878;
   cursor: pointer;
+  margin: 1rem 0 0 0;
 }
 .submit-button:hover {
+  background: #e9e9e9;
   border-color: #49bf9d;
   color: #49bf9d !important;
 }
@@ -2857,6 +2859,22 @@ article.special {
   }
   #header h1 {
     font-size: 1.35em;
+  }
+
+  /* Success Page */
+  section.success-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .page-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Footer */

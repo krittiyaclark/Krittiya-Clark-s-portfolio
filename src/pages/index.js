@@ -72,6 +72,7 @@ const HomeIndex = () => {
               >
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
+                    <input type="hidden" name="bot-field" />
                     <input
                       type="text"
                       name="name"
@@ -96,13 +97,9 @@ const HomeIndex = () => {
                     ></textarea>
                   </div>
                 </div>
-                <ul className="actions" style={{ marginTop: 30 }}>
-                  <li>
-                    <button type="submit" className="submit-button">
-                      Send Message
-                    </button>
-                  </li>
-                </ul>
+                <button type="submit" className="submit-button">
+                  Send Message
+                </button>
               </form>
             </div>
             <div className="4u 12u$(small)">
