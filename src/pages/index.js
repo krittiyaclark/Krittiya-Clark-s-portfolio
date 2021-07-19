@@ -100,7 +100,7 @@ const HomeIndex = () => {
                   </div>
                 </div>
                 <button type="submit" className="submit-button">
-                  subscribe
+                  Contact Me
                 </button>
               </form>
             </div>
