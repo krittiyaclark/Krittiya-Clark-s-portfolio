@@ -35,13 +35,17 @@ const HomeIndex = () => {
             <br />
             Bilanguages in English and Thai.
           </p>
-          {/* <ul className="actions">
+          <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Learn More
+              <a
+                href="https://www.dropbox.com/s/vuw4jna5nq4hxxy/KRITTIYA%20CLARK%20%20Software%20Engineer.pdf?dl=0"
+                className="button"
+                target="_blank"
+              >
+                Resume
               </a>
             </li>
-          </ul> */}
+          </ul>
         </section>
 
         <section id="two">

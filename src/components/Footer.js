@@ -43,7 +43,7 @@ const Footer = () => (
         <li>
           &copy; Krittiya Clark {new Date().getFullYear()} All rights reserved.
         </li>
-        <li>Built with Gatsby</li>
+        <li>Built with Gatsby and Hosted with Netlify</li>
       </ul>
     </div>
   </div>
