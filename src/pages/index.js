@@ -5,8 +5,9 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Krittiya Clark - Software Engineer'
+  const siteDescription =
+    'Software Engineer based in Colchester, Vermont. I have extensive knowledge in HTML, CSS, SASS, Javascript, Node.Js, React, and Jamstack. I am passionate about using code to solve problems. Through freelancing, I help empower businesses in my community who lack an online presence and technological expertise.'
 
   return (
     <Layout>
