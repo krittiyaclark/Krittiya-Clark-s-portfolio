@@ -47,6 +47,16 @@ const HomeIndex = () => {
               </a>
             </li>
           </ul>
+
+          <h2>Read my blog:</h2>
+          <p>
+            <a
+              href="https://krittiyaclark.hashnode.dev/how-can-you-learn-to-code-while-raising-children"
+              target="_blank"
+            >
+              How can you learn to code while raising children.
+            </a>
+          </p>
         </section>
 
         <section id="two">
