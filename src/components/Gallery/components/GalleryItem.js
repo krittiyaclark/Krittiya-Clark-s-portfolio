@@ -24,7 +24,7 @@ const GalleryItem = ({
   return (
     <article key={id} className="6u 12u$(xsmall) work-item">
       <a className="image fit thumb" href={source} onClick={onClick}>
-        <img src={thumbnail} />
+        <img src={thumbnail} alt={caption} />
       </a>
 
       <h3>{caption}</h3>

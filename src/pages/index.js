@@ -23,8 +23,8 @@ const HomeIndex = () => {
           </header>
           <p>
             I am a Software Engineer based in Colchester, Vermont. I have
-            extensive knowledge in HTML, CSS, SASS, Javascript, Node.Js, React,
-            and Jamstack. I am passionate about using code to solve problems.
+            extensive knowledge in Javascript, Node.Js, React, Jamstack, HTML,
+            CSS, and SASS. I am passionate about using code to solve problems.
             Through freelancing, I help empower businesses in my community who
             lack an online presence and technological expertise.
             <br />
@@ -36,30 +36,52 @@ const HomeIndex = () => {
             <br />
             Bilanguages in English and Thai.
           </p>
-          <ul className="actions">
-            <li>
-              <a
-                href="https://www.dropbox.com/s/vuw4jna5nq4hxxy/KRITTIYA%20CLARK%20%20Software%20Engineer.pdf?dl=0"
-                className="button"
-                target="_blank"
-              >
-                Resume
-              </a>
-            </li>
-          </ul>
+        </section>
 
-          <h2>Read my blog:</h2>
-          <p>
-            <a
-              href="https://krittiyaclark.hashnode.dev/how-can-you-learn-to-code-while-raising-children"
-              target="_blank"
-            >
-              How can you learn to code while raising children.
-            </a>
-          </p>
+        <section>
+          <div className="row">
+            <article className="12u 12u$(xsmall)">
+              <h2>About Me</h2>
+              <iframe
+                width="600"
+                height="315"
+                src="https://www.youtube.com/embed/4RglMrBkdzA"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </article>
+          </div>
         </section>
 
         <section id="two">
+          <div className="row">
+            <article className="6u 12u$(xsmall)">
+              <h2>
+                Download my
+                <a
+                  href="https://www.dropbox.com/s/vuw4jna5nq4hxxy/KRITTIYA%20CLARK%20%20Software%20Engineer.pdf?dl=0"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {' '}
+                  resume
+                </a>
+              </h2>
+            </article>
+            <article className="6u 12u$(xsmall)">
+              <h2>
+                Read my post at{' '}
+                <a href="https://krittiyaclark.hashnode.dev" target="_blank">
+                  hashnode{' '}
+                </a>
+              </h2>
+            </article>
+          </div>
+        </section>
+
+        <section id="three">
           <h2>Recent Work</h2>
 
           <Gallery />
@@ -73,52 +95,10 @@ const HomeIndex = () => {
           </ul> */}
         </section>
 
-        <section id="three">
+        <section id="four">
           <h2>Let's work together!</h2>
           <p>Hire me</p>
           <div className="row">
-            <div className="8u 12u$(small)">
-              <form
-                className="contact-form"
-                name="contact"
-                method="post"
-                netlify-honeypot="bot-field"
-                data-netlify="true"
-                action="/success"
-              >
-                <input type="hidden" name="bot-field" />
-                <input type="hidden" name="form-name" value="contact" />
-                <div className="row uniform 50%">
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Your name"
-                      className="form-control"
-                    />
-                  </div>
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your email"
-                      className="form-control"
-                    />
-                  </div>
-                  <div className="12u">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Message"
-                      rows="4"
-                    ></textarea>
-                  </div>
-                </div>
-                <button type="submit" className="submit-button">
-                  Contact Me
-                </button>
-              </form>
-            </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>

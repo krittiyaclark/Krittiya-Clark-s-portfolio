@@ -34,6 +34,7 @@ const Footer = () => (
             href="mailto:krittiyaclark@gmail.com"
             target="_blank"
             className="icon fa-envelope-o"
+            rel="noreferrer"
           >
             <span className="label">Email</span>
           </a>

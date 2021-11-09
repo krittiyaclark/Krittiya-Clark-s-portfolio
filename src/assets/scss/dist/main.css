@@ -1588,7 +1588,22 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: inherit;
+  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: #49bf9d;
+  text-decoration: none;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  border-bottom-color: transparent;
+  color: #49bf9d !important;
   text-decoration: none;
 }
 
@@ -2142,7 +2157,18 @@ ul.labeled-icons li:first-child {
   margin-top: 0;
 }
 ul.labeled-icons li a {
-  color: inherit;
+  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: #49bf9d;
+  text-decoration: none;
+}
+ul.labeled-icons li a:hover {
+  border-bottom-color: transparent;
+  color: #49bf9d !important;
+  text-decoration: none;
 }
 ul.labeled-icons li h3 {
   color: #b2b2b2;
@@ -2345,7 +2371,6 @@ input[type=button]:disabled,
 /* Work Item */
 .work-item {
   margin: 0 0 2em 0;
-  height: 50vh;
 }
 .work-item .image {
   margin: 0 0 1.5em 0;
@@ -2427,6 +2452,11 @@ input[type=button]:disabled,
 #header .image.avatar {
   margin: 0 0 1em 0;
   width: 6.25em;
+}
+
+/* iFrame */
+iframe {
+  width: 100%;
 }
 
 /* Footer */

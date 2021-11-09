@@ -121,8 +121,22 @@ h6 {
   margin: 0 0 (_size(element-margin) * 0.5) 0;
 
   a {
-    color: inherit;
+    @include vendor(
+      'transition',
+      (
+        'color #{_duration(transition)} ease-in-out',
+        'border-color #{_duration(transition)} ease-in-out'
+      )
+    );
+    border-bottom: dotted 1px;
+    color: _palette(accent1, bg);
     text-decoration: none;
+
+    &:hover {
+      border-bottom-color: transparent;
+      color: _palette(accent1, bg) !important;
+      text-decoration: none;
+    }
   }
 }
 
@@ -726,7 +740,22 @@ ul {
       }
 
       a {
-        color: inherit;
+        @include vendor(
+          'transition',
+          (
+            'color #{_duration(transition)} ease-in-out',
+            'border-color #{_duration(transition)} ease-in-out'
+          )
+        );
+        border-bottom: dotted 1px;
+        color: _palette(accent1, bg);
+        text-decoration: none;
+
+        &:hover {
+          border-bottom-color: transparent;
+          color: _palette(accent1, bg) !important;
+          text-decoration: none;
+        }
       }
 
       h3 {
@@ -934,7 +963,6 @@ input[type='button'],
 
 .work-item {
   margin: 0 0 _size(element-margin) 0;
-  height: 50vh;
 
   .image {
     margin: 0 0 (_size(element-margin) * 0.75) 0;
@@ -1008,6 +1036,12 @@ input[type='button'],
     margin: 0 0 (_size(element-margin) * 0.5) 0;
     width: 6.25em;
   }
+}
+
+/* iFrame */
+
+iframe {
+  width: 100%;
 }
 
 /* Footer */
