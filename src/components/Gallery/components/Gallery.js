@@ -30,6 +30,9 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
                 caption={obj.caption}
                 description={obj.description}
                 technology={obj.technology}
+                loginInfo={obj.loginInfo}
+                username={obj.username}
+                password={obj.password}
                 url={obj.url}
                 // position={obj.position}
                 toggleLightbox={obj.toggleLightbox}

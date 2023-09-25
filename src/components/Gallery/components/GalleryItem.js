@@ -10,6 +10,9 @@ const GalleryItem = ({
   description,
   technology,
   url,
+  loginInfo,
+  username,
+  password,
   position,
   toggleLightbox,
 }) => {
@@ -20,7 +23,6 @@ const GalleryItem = ({
     },
     [position, toggleLightbox]
   )
-
   return (
     <article key={id} className="6u 12u$(xsmall) work-item">
       <a className="image fit thumb" href={source} onClick={onClick}>
@@ -32,7 +34,15 @@ const GalleryItem = ({
         <span>
           <strong>{technology}</strong>
         </span>{' '}
+        <br />
         {description}
+      </p>
+      <p>
+        {loginInfo && 'Login Info:'}
+        <br />
+        {username && 'Username:'} {username}
+        <br />
+        {password && 'Password:'} {password}
       </p>
       <Link to={url} alt={caption} target="_blank">
         View Project
